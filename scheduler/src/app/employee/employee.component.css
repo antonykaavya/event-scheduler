@@ -1,0 +1,22 @@
+.card {
+	border: 2px black solid;
+	text-align: center;
+	width: 60%;
+	margin-top: 2%;
+	justify-content: center;
+}
+
+button, button:hover {
+	margin: 10px;
+	background-color: #015249;
+	color:white;
+}
+
+.form-control {
+	width: 60%;
+	margin-left: 20%;
+}
+
+.row, .form-group{
+	justify-content: center;
+}

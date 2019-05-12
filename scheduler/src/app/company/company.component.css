@@ -1,0 +1,18 @@
+input {
+	text-align: center;
+}
+
+button, button:hover {
+	margin: 10px;
+	background-color: #015249;
+	color:white;
+}
+
+.form-group {
+	width: 60%;
+}
+
+.row {
+	margin-top: 2%;
+	justify-content: center;
+}

@@ -1,0 +1,22 @@
+button, button:hover {
+	margin: 10px;
+	background-color: #015249;
+	color:white;
+}
+
+input {
+	text-align: center;
+}
+
+th {
+	text-align: center;
+}
+
+.form-group {
+	width: 60%;
+}
+
+.row {
+	margin-top: 2%;
+	justify-content: center;
+}

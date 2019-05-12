@@ -1,0 +1,22 @@
+button, h4, h5, .home_btn {
+	text-align: center;
+}
+
+button, button:hover {
+	margin: 10px;
+	background-color: #015249;
+	color:white;
+}
+
+.card {
+	margin: 2px black solid;
+}
+
+.col {
+	padding: 0px;
+	width: 30%;
+}
+
+.row {
+	margin: 15px;
+}

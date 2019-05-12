@@ -1,0 +1,16 @@
+<h2> Welcome {{companyName}}!! </h2>
+
+<h3> Let's fill out some info for your employees! </h3>
+
+<div class="row">
+    <div class="card" *ngFor="let i of emptyArray()">
+      <div class="card-body">
+        <h5 class="card-title">Name of Employee {{i+1}}: </h5>
+        <div class="form-group">
+            <input type="text" class="form-control" id="title" placeholder="Enter name of employee" #newname>
+      	</div>
+      </div>
+    </div>
+</div>
+
+<button (click)="addEmployee([newname])" routerLink="../meeting" type="button" class="btn btn-lg">Submit</button>
